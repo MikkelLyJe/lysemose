@@ -25,7 +25,7 @@ h1 {
 
 /*Mobile*/
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
     .logo {
         display: block;
         margin: auto;
@@ -44,7 +44,7 @@ h1 {
         margin-top: -5%;
     }
     .cases,
-    .frivilligt,
+    .frivilligt
         {
         text-align: center;
         display: block;
