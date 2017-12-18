@@ -4,7 +4,10 @@
     font-family: raleway;
     src: url(../fonts/raleway-extralight.ttf);
 }
-
+@font-face {
+    font-family:opensans;
+    src: url(../fonts/OpenSans-Regular-webfont.woff);
+}
 * {
     box-sizing: border-box;
 }
@@ -21,8 +24,22 @@ h1 {
     color: white;
     font-family: raleway;
     font-weight: normal;
+    text-align: center;
 }
-
+h2 {
+    font-family: opensans;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+p {
+    font-family: raleway;
+    color: white;
+    width: 85%;
+    margin: auto;
+    text-align: justify;
+    font-size: 1.75em;
+}
 /*Mobile*/
 
 @media (min-width: 300px) {
@@ -36,7 +53,7 @@ h1 {
         margin-top: -10%;
         display: block;
     }
-    .face-mobil {
+    .face {
         border: none;
         display: block;
         margin: auto;
@@ -44,7 +61,9 @@ h1 {
         margin-top: -5%;
     }
     .cases,
-    .frivilligt
+    .frivilligt,
+    .london,
+    .workshop
         {
         text-align: center;
         display: block;
@@ -72,11 +91,18 @@ h1 {
         background-image: url(../images/case3.jpg);
     }
     .cases {
-        margin-top: 7%;
+        margin-top: 6%;
         background-image: url(../images/cases.jpg);
     }
     .frivilligt {
         background-image: url(../images/frivillig.jpg);
+    }
+    .london {
+        margin-top: 6%;
+        background-image: url(../images/london.jpg);
+    }
+    .workshop {
+        background-image: url(../images/workshop.jpg);
     }
     body {
         margin: 0;
@@ -187,7 +213,6 @@ h1 {
         position: absolute;
         width: 100%;
         margin: -130px 0 0 -85%;
-        /*padding: 50px;*/
         padding-top: 130px;
         text-align: right;
         background: #ededed;
@@ -216,8 +241,11 @@ h1 {
 
 
 
-    /*Tablet*/
-    @media (min-width: 768px) and (max-width: 1023px) {}
-
     /*Desktop*/
-    @media (min-width: 1024px) {}
+    @media (min-width: 768px) {
+        .face {
+            width: 600px;
+        }
+
+    }
+
