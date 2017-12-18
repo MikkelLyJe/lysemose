@@ -4,10 +4,12 @@
     font-family: raleway;
     src: url(../fonts/raleway-extralight.ttf);
 }
+
 @font-face {
-    font-family:opensans;
+    font-family: opensans;
     src: url(../fonts/OpenSans-Regular-webfont.woff);
 }
+
 * {
     box-sizing: border-box;
 }
@@ -26,12 +28,14 @@ h1 {
     font-weight: normal;
     text-align: center;
 }
+
 h2 {
     font-family: opensans;
     color: white;
     font-size: 2em;
     text-align: center;
 }
+
 p {
     font-family: raleway;
     color: white;
@@ -40,10 +44,12 @@ p {
     text-align: justify;
     font-size: 1.75em;
 }
+
 article p {
     font-size: 1em;
     text-align: center;
 }
+
 /*Mobile*/
 
 @media (min-width: 300px) {
@@ -51,6 +57,7 @@ article p {
         display: block;
         margin: auto;
         position: relative;
+        width: 60%;
     }
     .enter {
         text-align: center;
@@ -67,8 +74,7 @@ article p {
     .cases,
     .frivilligt,
     .london,
-    .workshop
-        {
+    .workshop {
         text-align: center;
         display: block;
         width: auto;
@@ -250,16 +256,17 @@ article p {
         .face {
             width: 600px;
         }
-            .case1,
-    .case2,
-    .case3 {
-        text-align: center;
-        display: block;
-        width: auto;
-        height: 370px;
-        padding: 5%;
-        margin-top: 15px;
+        .case1,
+        .case2,
+        .case3 {
+            text-align: center;
+            display: block;
+            width: auto;
+            height: 370px;
+            padding: 5%;
+            margin-top: 15px;
+        }
+        .logo {
+            width: inherit;
+        }
     }
-
-    }
-
