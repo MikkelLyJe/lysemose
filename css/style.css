@@ -40,6 +40,10 @@ p {
     text-align: justify;
     font-size: 1.75em;
 }
+article p {
+    font-size: 1em;
+    text-align: center;
+}
 /*Mobile*/
 
 @media (min-width: 300px) {
@@ -246,6 +250,16 @@ p {
         .face {
             width: 600px;
         }
+            .case1,
+    .case2,
+    .case3 {
+        text-align: center;
+        display: block;
+        width: auto;
+        height: 370px;
+        padding: 5%;
+        margin-top: 15px;
+    }
 
     }
 
